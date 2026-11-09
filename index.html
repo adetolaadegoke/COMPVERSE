@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080808">
+  <title>CAMPVERSE — Every Campus. One Universe.</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #080808;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 7%;
+      border-bottom: 1px solid #292929;
+    }
+
+    .logo {
+      color: #e5b83f;
+      font-size: 25px;
+      font-weight: 900;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    .hero {
+      min-height: 75vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 35px 20px;
+    }
+
+    .hero h1 {
+      font-size: clamp(40px, 8vw, 76px);
+      margin-bottom: 15px;
+    }
+
+    .gold {
+      color: #e5b83f;
+    }
+
+    .hero p {
+      color: #bdbdbd;
+      max-width: 550px;
+      line-height: 1.8;
+      margin-bottom: 28px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #e5b83f;
+      color: #080808;
+      padding: 14px 25px;
+      border-radius: 7px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .features {
+      padding: 50px 7%;
+      background: #111;
+      text-align: center;
+    }
+
+    .features h2 {
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 18px;
+    }
+
+    .feature {
+      background: #1b1b1b;
+      border: 1px solid #333;
+      padding: 25px;
+      border-radius: 12px;
+    }
+
+    .feature h3 {
+      color: #e5b83f;
+      margin-bottom: 10px;
+    }
+
+    .feature p {
+      color: #bbb;
+      line-height: 1.6;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #888;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">CAMPVERSE</div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="about">
+      <h1>Every Campus.<br><span class="gold">One Universe.</span></h1>
+      <p>
+        Welcome to CAMPVERSE — a social platform
+        created to connect students across private
+        universities in Nigeria.
+      </p>
+      <a class="button" href="#features">Explore CAMPVERSE</a>
+    </section>
+
+    <section class="features" id="features">
+      <h2>Discover Your Campus Universe</h2>
+
+      <div class="grid">
+        <article class="feature">
+          <h3>Campus Feed</h3>
+          <p>Discover updates and conversations from your campus community.</p>
+        </article>
+
+        <article class="feature">
+          <h3>Student Profiles</h3>
+          <p>Create your profile and introduce yourself to your campus community.</p>
+        </article>
+
+        <article class="feature">
+          <h3>Stories</h3>
+          <p>Share moments and campus experiences.</p>
+        </article>
+
+        <article class="feature">
+          <h3>University Directory</h3>
+          <p>Explore participating private universities in Nigeria.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 CAMPVERSE. Every Campus. One Universe.
+  </footer>
+</body>
+</html>
